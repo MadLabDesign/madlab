@@ -1,22 +1,22 @@
-import * as React from 'react'
-import { Menu, Icon } from 'antd'
-import { Link } from 'gatsby'
-const SubMenu = Menu.SubMenu
-const MenuItemGroup = Menu.ItemGroup
+import * as React from 'react';
+import { Menu, Icon } from 'antd';
+import { Link } from 'gatsby';
+const SubMenu = Menu.SubMenu;
+const MenuItemGroup = Menu.ItemGroup;
 
 export interface SubNavProps {}
 
 export default class SubNav extends React.Component<SubNavProps, any> {
   state = {
-    current: 'mail',
-  }
+    current: 'mail'
+  };
 
   handleClick = (e: { key: any }) => {
-    console.log('click ', e)
+    console.log('click ', e);
     this.setState({
-      current: e.key,
-    })
-  }
+      current: e.key
+    });
+  };
   public render() {
     return (
       <Menu
@@ -34,7 +34,7 @@ export default class SubNav extends React.Component<SubNavProps, any> {
         <Menu.Item>
           <Link to="/a-markdown-page/" title="About Us">
             <Icon type="mail" />
-            About US
+            What it's all about
           </Link>
         </Menu.Item>
         <Menu.Item>
@@ -67,6 +67,6 @@ export default class SubNav extends React.Component<SubNavProps, any> {
           </Link>
         </Menu.Item>
       </Menu>
-    )
+    );
   }
 }

@@ -1,10 +1,10 @@
-import * as React from 'react'
+import * as React from 'react';
 
-import Page from '../components/Page'
-import Container from '../components/Container'
-import IndexLayout from '../layouts'
-import { Row } from 'antd'
-import CardContainer from '../components/lib/CardContainer'
+import Page from '../components/Page';
+import Container from '../components/Container';
+import IndexLayout from '../layouts';
+import { Row } from 'antd';
+import CardContainer from '../components/lib/CardContainer';
 
 const Blog = () => (
   <IndexLayout>
@@ -17,6 +17,6 @@ const Blog = () => (
       </Container>
     </Page>
   </IndexLayout>
-)
+);
 
-export default Blog
+export default Blog;

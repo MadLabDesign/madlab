@@ -1,5 +1,5 @@
-import * as React from 'react'
-import styled from 'react-emotion'
+import * as React from 'react';
+import styled from 'react-emotion';
 
 const StyledContainer = styled.div`
   position: relative;
@@ -8,14 +8,14 @@ const StyledContainer = styled.div`
   width: auto;
   max-width: 100%;
   padding: 0 1rem;
-`
+`;
 
 interface ContainerProps {
-  className?: string
+  className?: string;
 }
 
 const Container: React.SFC<ContainerProps> = ({ children, className }) => (
   <StyledContainer className={className}>{children}</StyledContainer>
-)
+);
 
-export default Container
+export default Container;

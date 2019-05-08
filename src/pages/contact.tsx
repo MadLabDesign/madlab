@@ -1,9 +1,9 @@
-import * as React from 'react'
+import * as React from 'react';
 
-import Page from '../components/Page'
-import Container from '../components/Container'
-import IndexLayout from '../layouts'
-import { Row, Col } from 'antd'
+import Page from '../components/Page';
+import Container from '../components/Container';
+import IndexLayout from '../layouts';
+import { Row, Col } from 'antd';
 
 const Contact = () => (
   <IndexLayout>
@@ -21,6 +21,6 @@ const Contact = () => (
       </Container>
     </Page>
   </IndexLayout>
-)
+);
 
-export default Contact
+export default Contact;

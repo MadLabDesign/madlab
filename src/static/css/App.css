@@ -1,0 +1,27 @@
+@import '~antd/dist/antd.css';
+
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+@media (min-width: 768px) {
+  .ant-layout-sider {
+    min-width: 250px !important;
+  }
+}
+
+.ant-menu-dark .ant-menu-item {
+  color: #ec008c;
+}
+.ant-menu-dark .ant-menu-item-selected {
+  color: #ffffff;
+}
+
+h1 {
+  color: dimgray;
+}
+.ant-layout-sider-zero-width-trigger {
+  top: 10px;
+}

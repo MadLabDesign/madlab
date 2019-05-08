@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Card, Avatar, Col } from 'antd';
+import { Card, Avatar, Col, Icon } from 'antd';
 
 export interface CardContainerProps {}
 const posts = [
@@ -18,11 +18,7 @@ export default class CardContainer extends React.Component<CardContainerProps, a
         <Col key={post.id} sm={1} md={6} lg={6} xl={6} style={{ marginBottom: '1rem' }}>
           <Card
             cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />}
-            // actions={[
-            //   <Icon type="setting" />,
-            //   <Icon type="edit" />,
-            //   <Icon type="ellipsis" />,
-            // ]}
+            actions={[<Icon type="setting" />, <Icon type="edit" />, <Icon type="ellipsis" />]}
           >
             <Meta
               avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}

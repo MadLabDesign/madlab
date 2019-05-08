@@ -14,6 +14,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-129957796-1",
+      },
+    },
+  ],
+  plugins: [
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'content',

@@ -34,7 +34,7 @@ export default class SubNav extends React.Component<SubNavProps, any> {
         <Menu.Item>
           <Link to="/a-markdown-page/" title="About Us">
             <Icon type="mail" />
-            What it's all about
+            About Us
           </Link>
         </Menu.Item>
         <Menu.Item>

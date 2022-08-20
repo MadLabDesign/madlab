@@ -59,7 +59,7 @@
     "prism-themes": "^1.0.1",
     "prismjs": "^1.15.0",
     "react": "^16.5.2",
-    "react-dev-utils": "^7.0.3",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.5.2",
     "react-emotion": "^9.2.9",
     "react-helmet": "^5.2.0",
